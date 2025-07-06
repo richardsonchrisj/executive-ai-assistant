@@ -1,0 +1,78 @@
+# ==============================================================================
+# EXECUTIVE AI ASSISTANT CONFIGURATION TEMPLATE
+# ==============================================================================
+# Copy this file to config.yaml and replace the placeholder values with your
+# personal information.
+# ==============================================================================
+
+# PERSONAL INFORMATION
+# ==============================================================================
+email: <<your.personal@email.com>>
+full_name: Your Full Name
+name: Your Name
+timezone: "America/Los_Angeles"
+
+# PROFESSIONAL BACKGROUND
+# ==============================================================================
+background: >
+  [Replace with your professional background and interests]
+
+# CONTEXTUAL PREFERENCES
+# ==============================================================================
+background_preferences: |
+  [Replace with your location, interests, and what you're looking for in emails]
+
+# MEETING & SCHEDULING PREFERENCES
+# ==============================================================================
+schedule_preferences: |
+  [Replace with your meeting preferences, default lengths, preferred times, etc.]
+
+# RESPONSE TONE & STYLE
+# ==============================================================================
+rewrite_preferences: |
+  [Replace with your preferred communication style and tone]
+
+response_preferences: |
+  [Replace with your response preferences and guidelines]
+
+# EMAIL TRIAGE CATEGORIES
+# ==============================================================================
+
+# IGNORE - No response needed
+triage_no: |
+  [Replace with types of emails you want to ignore]
+
+# NOTIFY - Important but no email response required
+triage_notify: |
+  [Replace with types of emails you want to be notified about]
+
+# RESPOND - Requires email response
+triage_email: |
+  [Replace with types of emails that require responses]
+
+# ADVANCED TRIAGE RULES
+# ==============================================================================
+priority_senders: |
+  [Replace with your priority contacts]
+
+context_keywords: |
+  [Replace with your relevant keywords]
+
+# SYSTEM CONFIGURATION
+# ==============================================================================
+memory: true
+
+# Feature flags for different capabilities
+features:
+  calendar_integration: true
+  auto_scheduling: true
+  smart_introductions: true
+  context_learning: true
+  priority_routing: true
+
+# Notification preferences
+notifications:
+  email_summary: true
+  daily_digest: true
+  urgent_alerts: true
+  weekly_insights: true 
